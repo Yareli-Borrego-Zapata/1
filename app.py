@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-# Página de bienvenida
+
 @app.route('/')
 def inicio():
     return '''
