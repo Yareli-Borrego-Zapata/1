@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def inicio():
     return '''
+    #inicio:
     <h1>Bienvenido mi calculadora de Python</h1>
     <p>para teclear escribe en el navegador: 127.0.0.1:5000/sumar/10/20</p>
 <p>para sumar escribe en el navegador 127.0.0.1:5000/sumar/10/20</p>
