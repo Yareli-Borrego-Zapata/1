@@ -36,6 +36,6 @@ def mayor(n1,n2 ):
     else:
         mayor = n2
     return f'<h1>El número mayor entre {n1} y {n2} es {mayor}</h1>'
-<h2>Borrego Zapata Yareli Estrella</h2>'
+'<h2>Borrego Zapata Yareli Estrella</h2>'
 if __name__ == '__main__':
     app.run(debug=True)
